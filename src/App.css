@@ -1,38 +1,202 @@
-.App {
-  text-align: center;
+:root{
+  --colortheme: rgb(53, 121, 247)
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.body-app {
+  font-family: "Sarabun", sans-serif;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-width: 900px;
+  height: 1200px;
+  margin: auto;
+  padding: 10px;
+  align-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+/*************************** nav-resume ************************** */
+.nav-resume {
+  background: rgba(236, 235, 235, 0.836);
+  width: 20rem;
+  border-left: 50px solid var(--colortheme);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-resume img {
+  margin-top: 35px;
+  margin-left: 75px;
+  width: 160px;
+  height: 190px;
 }
+
+.detile-nav {
+  margin: 15px;
+}
+
+.detile-nav h3 {
+  color: var(--colortheme);
+}
+
+.line-buttom {
+  margin-top: 5px;
+  border-bottom: 1px solid rgba(190, 164, 164, 0.432);
+}
+
+/***************************************************** Personal Details****************************************************/
+.email,
+.phone,
+.address,
+.birthday {
+  display: flex;
+  margin-top: 10px;
+}
+
+.email,
+.phone,
+.address,
+.birthday,
+h4 {
+  font-size: 16px;
+  padding: 2px;
+}
+
+.icon {
+  color: var(--colortheme);
+  margin-right: 10px;
+}
+
+.skill,
+.languages {
+  margin-top: 10px;
+}
+
+.skill-details h4,
+.languages-details h4 {
+  font-size: 14px;
+  padding: 10px;
+}
+
+/***************************************************** Skill *****************************************************/
+/***************************************************** Languages *****************************************************/
+.js-rt,
+.html-rt,
+.css-rt,
+.node-rt,
+.react-rt,
+.eng-rt,
+.th-rt {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rt {
+  padding-top: 6px;
+}
+
+
+/* ****************************************************  boay main  resume *************************************************** */
+
+.body-main {
+  background: rgb(255, 255, 255);
+  width: 600px;
+}
+
+.name {
+  font-size: 30px;
+  color: var(--colortheme);
+}
+
+.main {
+  margin: 30px;
+}
+
+
+/* ****************************************************  Eduction , Work-Experience , Project class title stlye *************************************************** */
+.eduction,.work-experience,.project-class ,h3{
+  color: var(--colortheme);
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+
+/* **************************************************** Eduction details *************************************************** */
+.date-school{
+  color: var(--colortheme);
+}
+
+.name-school{
+  color: var(--colortheme);
+  font-size: 17px;
+}
+
+.gpax{
+  font-size: 17px;
+}
+
+.activity{
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+.activity-details{
+  padding-left: 20px;
+}
+
+.activity-details h6{
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+.school-edcation1,
+.school-edcation2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  padding-top: 20px;
+}
+
+
+/* ****************************************************  Work Experience details *************************************************** */
+.title-work{
+  margin-top: 15px;
+}
+
+.title-work h5{
+  font-size: 14px;
+}
+
+.details-work{
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.details-work h6{
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.tach-use{
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.tach-use h5{
+  font-weight: bold;
+}
+
+.teac-details{
+  padding-left: 15px;
+}
+
+
+/* **************************************************** Project during class details *************************************************** */
+.project{
+  margin-top: 10px;
+}
+
+.project-deails h6{
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+
+

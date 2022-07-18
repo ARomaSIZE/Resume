@@ -1,11 +1,10 @@
 import React from "react";
 
-import Rating from "@mui/material/Rating";
 import imgpro from "./img/imgProfile.jfif";
 import "./App.css";
 
 //import ICON
-import StarIcon from "@mui/icons-material/Star";
+
 import EmailIcon from "@mui/icons-material/Email";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import HomeIcon from "@mui/icons-material/Home";
@@ -15,7 +14,7 @@ function App() {
   return (
     <div className="body-app">
       <div className="nav-resume">
-        <div className="Logo">
+        <div className="logo-bg">
           <img src={imgpro} />
         </div>
 
@@ -47,74 +46,59 @@ function App() {
             <div className="line-buttom"></div>
 
             <div className="skill-details">
-              <dvi className="js-rt">
-                <h4>JavaScript</h4>
-                <Rating
-                  className="rt"
-                  name="text-feedback"
-                  value={3}
-                  readOnly
-                  precision={0.5}
-                  emptyIcon={
-                    <StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />
-                  }
-                />
-              </dvi>
-
               <div className="html-rt">
                 <h4>HTML</h4>
-                <Rating
-                  className="rt"
-                  name="text-feedback"
-                  value={4}
-                  readOnly
-                  precision={0.5}
-                  emptyIcon={
-                    <StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />
-                  }
-                />
               </div>
 
               <div className="css-rt">
                 <h4>CSS AND SASS</h4>
-                <Rating
-                  className="rt"
-                  name="text-feedback"
-                  value={3.5}
-                  readOnly
-                  precision={0.5}
-                  emptyIcon={
-                    <StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />
-                  }
-                />
+              </div>
+
+              <div className="css-rt">
+                <h4>Bootstrap 5</h4>
+              </div>
+
+              <dvi className="js-rt">
+                <h4>JavaScript</h4>
+              </dvi>
+
+              <div className="react-rt">
+                <h4>React</h4>
               </div>
 
               <div className="node-rt">
                 <h4>Nodejs</h4>
-                <Rating
-                  className="rt"
-                  name="text-feedback"
-                  value={3}
-                  readOnly
-                  precision={0.5}
-                  emptyIcon={
-                    <StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />
-                  }
-                />
               </div>
 
-              <div className="react-rt">
-                <h4>React</h4>
-                <Rating
-                  className="rt"
-                  name="text-feedback"
-                  value={3}
-                  readOnly
-                  precision={0.5}
-                  emptyIcon={
-                    <StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />
-                  }
-                />
+              <div className="sql-rt">
+                <h4>SQL</h4>
+              </div>
+
+              <div className="sql-rt">
+                <h4>NOSQL</h4>
+              </div>
+            </div>
+          </div>
+
+          <div className="Another">
+            <h3>Tools</h3>
+            <div className="line-buttom"></div>
+
+            <div className="tools-details">
+              <div className="figma-rt">
+                <h4>Figma</h4>
+              </div>
+
+              <div className="xd-rt">
+                <h4>Adobe XD</h4>
+              </div>
+
+              <dvi className="git-rt">
+                <h4>Git</h4>
+              </dvi>
+
+              <div className="postman-rt">
+                <h4>Postman</h4>
               </div>
             </div>
           </div>
@@ -126,30 +110,10 @@ function App() {
             <div className="languages-details">
               <div className="eng-rt">
                 <h4>English</h4>
-                <Rating
-                  className="rt"
-                  name="text-feedback"
-                  value={3}
-                  readOnly
-                  precision={0.5}
-                  emptyIcon={
-                    <StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />
-                  }
-                />
               </div>
 
               <div className="th-rt">
                 <h4>Thai</h4>
-                <Rating
-                  className="rt"
-                  name="text-feedback"
-                  value={5}
-                  readOnly
-                  precision={0.5}
-                  emptyIcon={
-                    <StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />
-                  }
-                />
               </div>
             </div>
           </div>
@@ -158,7 +122,7 @@ function App() {
 
       <div className="body-main">
         <div className="main">
-          <h1 className="name">Phronwanat Boonman (Mate)</h1>
+          <h1 className="name">PHORNWANAT BOONMAN (MATE)</h1>
 
           <h3 className="eduction">Education</h3>
           <div className="line-buttom"></div>
@@ -184,7 +148,7 @@ function App() {
 
               <div className="activity-details">
                 <h6>
-                  -Participated in robot sumo competition 2016 at Naresuan
+                  -The robot sumo competition 2016 at Naresuan
                   University
                 </h6>
                 <h6>
@@ -229,7 +193,7 @@ function App() {
 
                 <div className="teac-details">
                   <h6>- HTML</h6>
-                  <h6>- Boostrap5</h6>
+                  <h6>- Bootstrap 5</h6>
                   <h6>- NodeJs</h6>
                 </div>
               </div>
@@ -258,7 +222,7 @@ function App() {
           </div>
 
           <div className="project-class">
-            <h3>Project during class</h3>
+            <h3>Academic projects</h3>
           </div>
           <div className="line-buttom"></div>
 

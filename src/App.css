@@ -1,5 +1,6 @@
-:root{
-  --colortheme: rgb(53, 121, 247)
+:root {
+  --colortheme: rgb(0, 0, 0);
+  --colortext: rgb(255, 255, 255);
 }
 
 .body-app {
@@ -14,16 +15,16 @@
 
 /*************************** nav-resume ************************** */
 .nav-resume {
-  background: rgba(236, 235, 235, 0.836);
+  background: rgba(124, 122, 122, 0.836);
   width: 20rem;
   border-left: 50px solid var(--colortheme);
 }
 
 .nav-resume img {
   margin-top: 35px;
-  margin-left: 75px;
-  width: 160px;
-  height: 190px;
+  margin-left: 70px;
+  width: 150px;
+  height: 180px;
 }
 
 .detile-nav {
@@ -31,12 +32,12 @@
 }
 
 .detile-nav h3 {
-  color: var(--colortheme);
+  color: var(--colortext);
 }
 
 .line-buttom {
   margin-top: 5px;
-  border-bottom: 1px solid rgba(190, 164, 164, 0.432);
+  border-bottom: 1px solid rgba(77, 64, 64, 0.658);
 }
 
 /***************************************************** Personal Details****************************************************/
@@ -53,7 +54,7 @@
 .address,
 .birthday,
 h4 {
-  font-size: 16px;
+  font-size: 14px;
   padding: 2px;
 }
 
@@ -63,14 +64,16 @@ h4 {
 }
 
 .skill,
-.languages {
+.languages,
+.another-details {
   margin-top: 10px;
 }
 
 .skill-details h4,
-.languages-details h4 {
+.languages-details h4,
+.tools-details h4 {
   font-size: 14px;
-  padding: 10px;
+  padding: 5px;
 }
 
 /***************************************************** Skill *****************************************************/
@@ -80,6 +83,10 @@ h4 {
 .css-rt,
 .node-rt,
 .react-rt,
+.figma-rt,
+.xd-rt,
+.git-rt,
+.postman-rt,
 .eng-rt,
 .th-rt {
   display: flex;
@@ -89,7 +96,6 @@ h4 {
 .rt {
   padding-top: 6px;
 }
-
 
 /* ****************************************************  boay main  resume *************************************************** */
 
@@ -107,41 +113,41 @@ h4 {
   margin: 30px;
 }
 
-
 /* ****************************************************  Eduction , Work-Experience , Project class title stlye *************************************************** */
-.eduction,.work-experience,.project-class ,h3{
+.eduction,
+.work-experience,
+.project-class,
+h3 {
   color: var(--colortheme);
   font-size: 18px;
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
-
-
 /* **************************************************** Eduction details *************************************************** */
-.date-school{
+.date-school {
   color: var(--colortheme);
 }
 
-.name-school{
+.name-school {
   color: var(--colortheme);
   font-size: 17px;
 }
 
-.gpax{
+.gpax {
   font-size: 17px;
 }
 
-.activity{
+.activity {
   padding-top: 5px;
   padding-left: 20px;
 }
 
-.activity-details{
+.activity-details {
   padding-left: 20px;
 }
 
-.activity-details h6{
+.activity-details h6 {
   padding-top: 10px;
   font-size: 12px;
 }
@@ -154,49 +160,44 @@ h4 {
   padding-top: 20px;
 }
 
-
 /* ****************************************************  Work Experience details *************************************************** */
-.title-work{
+.title-work {
   margin-top: 15px;
 }
 
-.title-work h5{
+.title-work h5 {
   font-size: 14px;
 }
 
-.details-work{
+.details-work {
   margin-top: 10px;
   padding-left: 20px;
 }
 
-.details-work h6{
+.details-work h6 {
   font-size: 12px;
   padding-top: 5px;
 }
 
-.tach-use{
+.tach-use {
   margin-top: 10px;
   padding-left: 10px;
 }
 
-.tach-use h5{
+.tach-use h5 {
   font-weight: bold;
 }
 
-.teac-details{
+.teac-details {
   padding-left: 15px;
 }
 
-
 /* **************************************************** Project during class details *************************************************** */
-.project{
+.project {
   margin-top: 10px;
 }
 
-.project-deails h6{
+.project-deails h6 {
   margin-top: 5px;
   padding-left: 20px;
 }
-
-
-
